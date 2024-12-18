@@ -1,0 +1,18 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите количество долларов: ");
+        double dollars = scanner.nextDouble();
+        double pound = 1.487;
+        double fr = 0.172;
+        double mark = 0.584;
+        double yen = 0.00955;
+        double pounds = dollars / pound;
+        double francs = dollars / fr;
+        double marks = dollars / mark;
+        double yens = dollars / yen;
+        System.out.printf("Вы получите %.3f фунта, %.3f французского франка, %.3f немецкой марки, %.3f японской йены.\n",
+                pounds, francs, marks, yens);
+    }
+}
