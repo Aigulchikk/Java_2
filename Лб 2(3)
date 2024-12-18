@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите температуру в градусах по Цельсию: ");
+        double temp = scanner.nextDouble();
+        double far = (temp * 9/5) + 32;
+        System.out.print( "Градусы по Фаренгейту:" + far);
+    }
+}
