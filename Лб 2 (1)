@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ведите число n: ");
+        double n = scanner.nextDouble();
+        int rounded = (int) Math.round(n);
+        System.out.print(rounded);
+    }
+}
