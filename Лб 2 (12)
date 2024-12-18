@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите два числа: ");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        if(a > b){
+            System.out.print(a);
+        }
+        else if (a < b){
+            System.out.print(b);
+        }
+        else {
+            System.out.print("Числа равны");
+        }
+
+    }
+}
