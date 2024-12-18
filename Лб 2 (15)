@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите цену товара: ");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        System.out.print("Введите сколько Вы заплатили: ");
+        int c = scanner.nextInt();
+        int d = scanner.nextInt();
+        int e = c - a;
+        int f = d - b;
+        System.out.print("Осталось " + e + " рублей и "+ f + " копеек");
+    }
+}
